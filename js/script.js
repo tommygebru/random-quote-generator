@@ -103,7 +103,7 @@ document.getElementById("loadQuote").addEventListener("click", printQuote, false
 /***
 Variable includes function.
 ***/
-const newQuote = setInterval(()=>{printQuote()}, 3000);
+const newQuote = setInterval(()=>{printQuote()}, 30000);
 newQuote;
 
 
